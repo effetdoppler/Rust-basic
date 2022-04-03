@@ -2,7 +2,7 @@ use divisor_sum::divisor_sum;
 
 fn main()
 {
-    let mut i:u64 = 0;
+    let mut i:u64 = 1;
 	while i < 100000
 	{
 		if is_perfect_number(i) == true
